@@ -1,0 +1,18 @@
+.radio {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .radio-display {
+    font-size: 2rem;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  button {
+    width: 75px;
+  }
+  
