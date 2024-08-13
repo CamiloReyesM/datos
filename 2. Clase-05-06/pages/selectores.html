@@ -33,14 +33,25 @@
 
   <div class="container">
     <label for="inputPassword5" class="form-label mt-5">Usuario</label>
-    <input id="user" type="text" id="inputPassword5" placeholder="Ingrese Usuario" class="form-control" aria-describedby="passwordHelpBlock">
+    <input id="user" type="text" placeholder="Ingrese Usuario" class="form-control"
+      aria-describedby="passwordHelpBlock">
     <label for="inputPassword5" class="form-label mt-2">Contraseña</label>
-    <input id="pw" type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-    <div id="passwordHelpBlock" class="form-text">
-    <button type="button" class="btn btn-primary btn-lg mt-2" onclick="pruebaBoton()">Enviar</button>
-    </div>
+    <input id="pw" type="password" class="form-control" aria-describedby="passwordHelpBlock">
+    <div class="d-grid gap-2"></div>
+    <button type="button" class="btn btn-primary btn-lg mt-3" onclick="pruebaBoton()">Entrar</button>
+    <button type="button" class="btn btn-dark-mt-3" onclick="desbloquearCuenta()">desbloquear</button>
+    <!--<button type="button" class="btn btn-dark-mt-3" onclick="imprimirArreglo()">Imprimir</button>
+
+    <input id="arrayPosicion" type="number" placeholder="Ingrese Posición vector" class="form-control" arial-describedby="passwordHelpBlock">
+
+    <label for="inputPassword5" class="form-label mt-5">Agregar Fruta</label>
+    <input id="nombreFruta" type="text" placeholder="Ingrese nombre de la fruta" class="form-control" arial-describedby="passwordHelpBlock">
+    <button type="button" class="btn btn-success mt-3" onclick="agregarFruta()">Agregar</button>
+    <button type="button" class="btn btn-danger mt-3" onclick="eliminarFruta()">Eliminar</button> -->
+
   </div>
-  
+  </div>
+
   <script src="../js/logica.js"></script>
 </body>
 
